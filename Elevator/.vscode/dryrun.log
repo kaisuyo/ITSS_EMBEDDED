@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kaisuyo/Documents/ITSS_EMBEDDED/Elevator'
+make: Leaving directory '/home/kaisuyo/Documents/ITSS_EMBEDDED/Elevator'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

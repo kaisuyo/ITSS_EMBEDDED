@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kaisuyo/Documents/ITSS_EMBEDDED/Elevator/client'
+gcc -c -Wall  client.c
+gcc -c -Wall  subHandle.c
+gcc -pthread client.o subHandle.o -o client
+make: Leaving directory '/home/kaisuyo/Documents/ITSS_EMBEDDED/Elevator/client'
+ 
